@@ -1,0 +1,354 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* ==================================================
+  Header Section Start
+  ===================================================== */
+
+.header {
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: center;
+  /* width: 1366px; */
+  height: 120px;
+  background: #13142d;
+}
+
+.container-one {
+  width: 1200px;
+  display: flex;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: space-between;
+  align-content: flex-start;
+  flex-wrap: wrap;
+}
+
+.logo {
+  width: 87px;
+  height: 85px;
+  /* margin-left: 103px; */
+}
+
+.navbar-list {
+  display: flex;
+}
+
+.navbar li {
+  display: inline-block;
+  text-decoration: none;
+  padding: 30px 30px 30px 30px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: rgb(213, 217, 202);
+  transition: color 0.3s linear;
+  font-size: 21px;
+  font-weight: 500;
+  letter-spacing: 0.1px;
+}
+
+.navbar li a:hover {
+  color: #bbff00;
+}
+
+.navbar li a:active {
+  color: #005c79;
+}
+
+.button-sign {
+  background-color: rgb(72, 39, 116);
+  display: inline-flex;
+  padding: 20px 30px;
+  gap: 10px;
+  color: #fff;
+  font-size: 21px;
+  border-color: transparent;
+  font-weight: 500;
+  border-style: solid;
+  letter-spacing: 0.1px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: color 0.6s linear;
+}
+
+.button-sign:hover {
+  background-color: #00ff6a;
+  color: rgb(72, 39, 116);
+}
+
+.button-sign:active {
+  background-color: #00e1ff;
+  color: rgb(72, 39, 116);
+}
+
+.header-b-hr {
+  /* color: #ff0000; */
+  background-color: rgb(15, 17, 51);
+  /* font-size: 100px; */
+  /* padding: 50px 50px 50px 50px; */
+  height: 16px;
+  border-style: hidden;
+}
+
+/* ==================================================
+                 Hero Section Start
+  ===================================================== */
+
+.hero-section {
+  background-color: rgb(14, 20, 59);
+  background-image: url(../image/pngegg1.svg);
+  background-repeat: no-repeat;
+  background-position: bottom left;
+}
+
+.container {
+  width: 1265px;
+  margin: 0 auto;
+}
+
+.grid {
+  display: grid;
+  grid-auto-flow: column;
+}
+
+.grid-tow-column {
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+/* .phon-img {
+  padding-top: 92px;
+  width: 0px;
+} */
+
+.hero-section {
+  background-color: rgb(14, 20, 59);
+  background-image: url(../image/pngegg1.svg);
+  background-repeat: no-repeat;
+  background-position: bottom left;
+}
+
+.phon-img {
+  padding-top: 92px;
+  width: 140px;
+}
+
+.hero-section-data {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  margin-top: 110px;
+  margin-bottom: 99px;
+  /* margin-left: 12px; */
+  width: 552px; /* ya hatana ha */
+}
+
+.sec-para-one {
+  color: #faf33f;
+  font-size: 11px;
+  font-weight: 400;
+  /* line-height: 34px; */
+  letter-spacing: 0.1px;
+}
+
+.website {
+  color: #6d76bb;
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 34px;
+  letter-spacing: 0.1px;
+}
+
+.hero-sec-heading {
+  color: #efefef;
+  /* text-align: center; */
+  font-size: 66px;
+  font-weight: 700;
+  letter-spacing: 0.1px;
+}
+
+.redeem {
+  color: #efefef;
+  font-size: 66px;
+  font-weight: 700;
+  /* text-align: center; */
+  line-height: 96px; /* 145.455% */
+  letter-spacing: 0.1px;
+}
+
+.sec-parag-tow {
+  color: #bdb8b8;
+  font-size: 26px;
+  width: 651px;
+  font-weight: 400;
+  letter-spacing: 0.1px;
+  line-height: 34px; /* 130.769% */
+}
+
+.join-btn {
+  color: #fff;
+  text-align: center;
+  font-size: 21px;
+  font-weight: 500;
+  display: inline-flex;
+  /* display: inline-block; */
+  padding: 20px 30px;
+  margin-bottom: 0px;
+  margin-top: 19px;
+  border-radius: 10px;
+  border: 3px solid #482774;
+  background: rgba(14, 19, 58, 0.4);
+  backdrop-filter: blur(3.5px);
+  transition: 0.2s;
+}
+
+.join-btn:hover {
+  background-color: #482774;
+  color: #13142d;
+}
+
+.join-btn:active {
+  background-color: #13142d;
+  color: #482774;
+}
+
+/* .roboto-man-div {
+  background-image: url(../P-1/image/roboto.png);
+  background-repeat: no-repeat;
+  background-position: bottom left;
+  width: 200px;
+   height: 200px;
+}  */
+
+.section-hero-image {
+  width: 600px; /* ya hatana ha */
+  height: 572px;
+}
+
+.roboto-bg-crcil {
+  width: 300px;
+  height: 300px;
+  border-radius: 170px;
+  background-color: rgb(49, 100, 255);
+  position: unset;
+  margin: -380px 0px 0px 139px;
+}
+
+/* ========================================================
+                     Task Section Start
+  ========================================================= */
+
+.all-task-section {
+  background-color: rgb(15, 18, 58);
+}
+
+.task-container {
+  padding-top: 58px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-content: center;
+}
+
+.task-heading {
+  color: #eff4ef;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 900;
+  line-height: 20px; /* 50% */
+  letter-spacing: 0.1px;
+  padding-bottom: 80px;
+}
+
+.my-task {
+  background-color: rgba(25, 30, 60, 1);
+  width: 1030px;
+  height: 504px;
+  top: 149px;
+  border-radius: 31px;
+  box-shadow: 15px 15px rgb(12, 17, 53);
+}
+
+.Complete-task {
+  color: #bcb732;
+  text-align: center;
+  font-size: 26px;
+  font-weight: 700;
+  font-family: "Montserrat", sans-serif;
+  /* text-transform: uppercase; */
+  padding-top: 37px;
+}
+
+/* ================================
+          Table Head Rows Start
+    ================================= */
+
+.table {
+  color: #fff;
+  font-weight: 600;
+  padding-top: 36px;
+  display: flex;
+  justify-content: center;
+}
+
+.tr {
+  padding-bottom: 26px;
+  /* text-align: center; */
+  /* font-size: 20px; */
+}
+
+.table tr th {
+  cursor: pointer;
+}
+
+/* .table tr td {
+  cursor: pointer;
+} */
+
+.head-line {
+  width: 1030px;
+  border-width: 3px;
+  border-style: solid;
+  color: rgba(72, 39, 116, 1);
+}
+
+.remaining {
+  font-size: 20px;
+}
+
+.type {
+  padding-left: 137.5px;
+  font-size: 20px;
+}
+
+.project {
+  font-size: 20px;
+  padding-left: 137px;
+}
+
+.points {
+  font-size: 20px;
+  padding-left: 134px;
+}
+
+.state {
+  font-size: 20px;
+  padding-left: 130px;
+}
+
+/* ================================
+          Table body Rows Start
+    ================================= */
